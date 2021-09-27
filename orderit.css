@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    height: 70px;
+    background-color: steelblue;
+}
+.heading h2{
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+}
+.main{
+    background-image: url(../Images/data.jpg);
+	width: 100%;
+	height: 930px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.form1{
+    margin: auto;
+    width: 630px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.form1:hover{
+    border: 3px solid brown;
+    transition: 00.5s;
+    cursor: pointer;
+}
+
+.form1 input{
+    margin-left: 40px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+    cursor: pointer;
+}
+.form1 input:hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+}
+
+.text1{
+        font-size: 20px;
+        text-align: center;
+}
+h3{
+    color: chocolate;
+}
+#but{
+    margin-left: 40px;
+    text-align: center;
+    font-size: 25px;
+    width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#but:hover{
+    border: 2px solid brown;
+    transition: 00.5s;
+}
+#but2{
+    margin-left: 35px;
+    text-align: center;
+    font-size: 25px;
+    width: 255px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    background-color:red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#but2:hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    
+}
+.footer h2{
+        text-align: center;
+        font-size: larger;
+        padding-top: 35px;
+
+
+}
